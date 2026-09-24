@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ETB - Entreprise de Travaux Bâtiment & Recyclage</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f3f5f7;color:#222}
+header{background:linear-gradient(135deg,#0056b3,#0084d6);color:white;text-align:center;padding:55px 20px}
+header h1{font-size:42px;margin:0 0 12px}header p{font-size:20px;margin:0}
+nav{background:#003b73;padding:16px;text-align:center;position:sticky;top:0;z-index:1000}
+nav a{color:white;text-decoration:none;font-weight:bold;margin:0 18px;font-size:17px}
+nav a:hover{color:#ffd000}
+section{max-width:1100px;margin:auto;padding:55px 20px}
+section h2{text-align:center;color:#0056b3;font-size:32px;margin-bottom:25px}
+.intro{text-align:center;font-size:19px;line-height:1.7}
+.services,.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+.service,.video-card{background:white;padding:20px;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,.12)}
+.service{text-align:center}.service h3,.video-card h3{color:#0056b3}
+.video-card video{width:100%;border-radius:10px;display:block}
+.contact{max-width:none;background:#0056b3;color:white;text-align:center}
+.contact h2{color:white}.contact p{font-size:18px;line-height:1.7}
+.contact a{display:inline-block;background:white;color:#0056b3;text-decoration:none;padding:13px 22px;margin:7px;border-radius:9px;font-weight:bold}
+.contact a:hover{background:#ffd000;color:#003b73}
+footer{background:#222;color:white;text-align:center;padding:22px}
+@media(max-width:600px){header h1{font-size:32px}header p{font-size:17px}nav a{display:inline-block;margin:7px;font-size:15px}section h2{font-size:27px}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🏗️ ETB</h1>
+<p>Entreprise de Travaux Bâtiment & Recyclage</p>
+</header>
+
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#batiment">Travaux Bâtiment</a>
+<a href="#recyclage">Recyclage</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="accueil">
+<h2>Bienvenue chez ETB</h2>
+<p class="intro">ETB est une entreprise spécialisée dans les travaux de bâtiment ainsi que dans la collecte, le tri et le recyclage des matériaux.</p>
+<div class="services">
+<div class="service"><h3>🏗️ Travaux Bâtiment</h3><p>Construction, rénovation et réalisation de travaux de bâtiment.</p></div>
+<div class="service"><h3>♻️ Recyclage</h3><p>Collecte, tri et valorisation des matériaux recyclables.</p></div>
+</div>
+</section>
+
+<section id="batiment">
+<h2>🏗️ Travaux Bâtiment</h2>
+<p class="intro">Construction, rénovation et différents travaux liés au bâtiment.</p>
+</section>
+
+<section id="recyclage">
+<h2>♻️ Recyclage</h2>
+<p class="intro">Découvrez nos activités de recyclage et de valorisation des matériaux.</p>
+<div class="videos">
+
+<div class="video-card">
+<video controls preload="metadata">
+<source src="Recyclage01.mp4" type="video/mp4">
+Votre navigateur ne supporte pas la vidéo.
+</video>
+<h3>Recyclage - Réalisation 01</h3>
+</div>
+
+<div class="video-card">
+<video controls preload="metadata">
+<source src="Recyclage02.mp4" type="video/mp4">
+Votre navigateur ne supporte pas la vidéo.
+</video>
+<h3>Recyclage - Réalisation 02</h3>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+<h2>📞 Contact</h2>
+<p><a href="tel:+213550570923">📞 Téléphone : +213 550 57 09 23</a></p>
+<p><a href="https://wa.me/213772317910" target="_blank">💬 WhatsApp : +213 772 31 79 10</a></p>
+<p>📍 <strong>Adresse :</strong><br>Cité 300 Logements,<br>Commune de Aïn Defla,<br>Algérie</p>
+</section>
+
+<footer>© 2026 ETB - Entreprise de Travaux Bâtiment & Recyclage</footer>
+</body>
+</html>
